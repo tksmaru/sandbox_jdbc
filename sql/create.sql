@@ -1,0 +1,6 @@
+CREATE TABLE status (
+	id 			INT(11) AUTO_INCREMENT,
+	status		TINYINT UNSIGNED,
+	last_update	TIMESTAMP,
+	INDEX(ID)
+);
